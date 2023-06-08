@@ -1,3 +1,3 @@
 <?php
 
-echo 'default controller';
+echo 'home';
