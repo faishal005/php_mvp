@@ -4,5 +4,5 @@ class HomeController extends Controller
  {
     public function index()
     {
-       echo 'default controller';
+       $this->view->render('home');
     )
