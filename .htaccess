@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} I-f
+RewriteCond %{REQUEST_FILENAME} I-d
+RewriteRule ^(.*)$ index.php?path=$1 [NC,L,QSA]
