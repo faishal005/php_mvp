@@ -1,16 +1,13 @@
-<?php defined('__ROOT__') OR exit('No direct script access allowed');
 
-class Users extends My_controller
+<?php
+class Users extends Controller
 {
-	public function __construct()
-	{
-		parent::__construct();
-	}
-
-	public function index()
-	{
-		$this->view->allUsers = R::findAll( 'users' );
-		$this->view->title = 'users';
-		$this->view->render('users/view');
-	}
+public function index()
+{
+echo 'view all users';
+}
+public function delete()
+{
+// var_dump(func_get_arg(0)); echo 'delete user';
+}
 }
