@@ -1,4 +1,3 @@
-
 <?php
 class Users extends Controller
 {
@@ -8,6 +7,6 @@ echo 'view all users';
 }
 public function delete()
 {
-// var_dump(func_get_arg(0)); echo 'delete user';
+
 }
 }
